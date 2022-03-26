@@ -24,6 +24,7 @@ int binarySearch(int arr[], int item, int n) {
     return -1;
 }
 
+//recursive version
 int recursiveBinary(int arr[], int start, int end, int item, int n) {
     if (start < end) {
         return -1;
